@@ -1,0 +1,92 @@
+/**
+*Image
+**/
+
+img{
+	float:left;
+	position:relative;
+}
+
+/**
+*Link
+**/
+a {
+	text-decoration:none;
+}
+
+
+/**
+ * Layout raport page
+ */
+.raports{
+         font-family: times new roman, sans-serif;
+} 
+.raports h1{
+	border-bottom:1px solid;
+	padding-bottom:20px; 
+	background-image: url('../img/pink2.jpg');
+        background-position: left top; 
+        background-attachment : fixed;
+        font-family: arial, sans-serif;
+}
+.raports img{
+	float:right;
+}
+
+/**
+ * Layout homes page
+*/     
+.homes{
+    line-height:150%;
+    border-radius:20px;
+    border-left: 5px pink solid;
+    font-family: times new roman, sans-serif;
+}
+.homes p{
+	margin:0em 0em 0em 15em;
+	padding:15px 10px ;
+}
+.homes img {
+	position:fixed;
+}
+
+/**
+*Menu
+**/
+
+nav {
+	display:block;
+	margin:20px 0px 20px;
+	padding:10px 0px 10px 0px;
+	background:#666;
+        border:0;
+        border-bottom:2px solid #999999;
+        width:980px;
+}
+nav a {
+	margin:0;padding:8px 1em 8px 1em;
+	color:black;
+        font-family:Tahoma,Geneva,sans-serif;
+        text-decoration:none;
+        border-right: 1px solid;
+}
+      
+
+nav.related {
+	padding: 0.2em 1em 0.3em 1em;
+	font-size:smaller;
+	color:black;
+} 
+
+
+body#me a.Hem, 
+body#raport a.Rapport, 
+body#source a.Source {
+	color:#ffffff;
+	background:#F69FC2;  
+}
+
+
+
+
+
